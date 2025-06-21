@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Educação Ambiental</title>
 
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      
+
 </head>
 <body>
     <div class="menu-container">
@@ -22,34 +23,38 @@
         </label>
         <nav class="menu">
             <ul>
-                
+
                 <li> <i class="fa-solid fa-house"></i>
                     <a href="index.html">Página Principal</a></li>
-               
-                <li> 
+
+                <li>
                     <i class="fa-solid fa-child"></i>
                     <a href="eduque.html">Eduque o Futuro</a></li>
-              
+
                 <li>
                     <i class="fa-solid fa-circle-info"></i>
                     <a href="sobre.html">Sobre o Projeto</a></li>
-                
+
             </ul>
         </nav>
     </div>
+
+    <div class="controle-fonte">
+
+        <button id="aumentar">A+</button>
+        <button id="diminuir">A-</button>
+        <button id="resetar">A</button>
+
+    </div>
+
     <div class="introducao">
         <h2 class="titulos">
             Seja bem vindo!
         </h2>
         <p class="textos" id="textointro">
-            Meu nome é Matheus, sou estudante de Graduação em Análise e Desenvolvimento de sistemas. Esta página faz parte de um projeto alinhado com a minha universidade e tem como objetivo, levar, à minha comunidade próxima, conhecimento acerca de práticas sustentáveis com base em objetivos de desenvolvimento sustentável propostos pela ONU.
-        </p>
-        
-    </div>
-
-    <div class="importanciatema">
-        <p class="textos">
-            Decidi tratar diretamente deste tema tendo em vista os eventos climáticos e desastres naturais recentes, como o derretimento das geleiras que resultam em ondas de calor, queimadas, e, principalmente, pela fumaça que foi vista pelo nosso estado e em outras áreas do Brasil.
+            Meu nome é Matheus, sou estudante de Graduação em Análise e Desenvolvimento de sistemas. Esta página faz parte de um projeto de atividade extensionista alinhado com a minha universidade e tem como objetivo trazer à minha comunidade conhecimento sobre práticas sustentáveis com base em objetivos de desenvolvimento sustentável propostos pela Organização das Nações Unidas(ONU).
+            <br> <br>
+            Decidi tratar diretamente deste tema tendo em vista os eventos climáticos e a intensidade dos efeitos negativos das queimadas sobre diversas cidades do estado e, principalmente, sobre a capital.
         </p>
     </div>
     <div class="problemas">
@@ -57,22 +62,40 @@
             Problema a se Enfrentar
         </h3>
 
-        <p class="textos" id="textoproblemas">
-            Nos últimos dois meses, vimos nossa cidade encoberta por fumaças que acarretaram em um grande aumento nas internações por doenças respiratórias, onde, contabilizando as quatro unidades de pronto atendimento(UPAs), foram registrados 1.076 atendimentos de pacientes com queixas de falta de ar, sem contar outras enfermidades que foram agravadas pelas queimadas. </p>
-            <p class="textos">
-            Segundo informações do Instituto Nacional de Pesquisas Espaciais (INPE), foram registrados um total de 7.282 focos de incêndio de janeiro ao mês de setembro somente na capital do estado.
+        <p class="textos">
+            Em 2024 tivemos um estado de extrema preocupação quanto às queimadas pois foi registrado um total de 7.282 focos de incêndios de janeiro a setembro segundo o  Instituto Nacional de Pesquisas Espaciais (Inpe), havendo um aumento de 169% se comparado com 2023 e, sendo Porto Velho responsável por 32% dos casos.
+            
+            <img class="imgsTextos" src="images/graficoQueimadas.jpeg" alt="área queimada em hectares"> <p class="fonteFotos">Área queimada em hectares. Fonte: monitor do fogo do Mapbiomas</p>
+
+            Apenas no mês de agosto foi registrado um total 1076 atendimentos de pacientes com queixas de falta de ar nas Unidades de Pronto Atendimento, tendo um aumento de 50% se comparado ao mesmo período no ano anterior.
+            <br> <br>
+            Diante destas ações prejudiciais, o governo estadual e a prefeitura municipal de Porto Velho vêm tomando atitudes para transformar o futuro através de investimentos no presente.
+            <br> <br>
+            Recentemente a secretaria Municipal do Meio Ambiente(SEMA) tem ministrado diversas visitas ao Parque Natural de Porto Velho para alunos da rede municipal visando formar cidadãos mais conscientes através de atividades que integram a Educação ambiental. Podemos pegar como exemplo a visita dos alunos da Escola Municipal Bhoemundo Álvares Afonso onde foram conduzidas dinâmicas interativas e explicações sobre a fauna, a flora e a importância dos recursos naturais protegidos na área do parque. Esta ação de visitas ao parque natural da cidade também foi ministrada com alunos de diversas outras escolas como por exemplo a visita de 180 alunos da Escola Estadual Lydia Johnson ao Parque Natural e ao Viveiro Municipal onde além do passeio, uma palestra educativa foi ministrada.
+            <br> <br>
+            Além destas atividades educativas, a Prefeitura abriu um
+            <a class="textoLinks" href="https://sema.portovelho.ro.gov.br/artigo/49363/prevencao-prefeitura-de-porto-velho-abre-chamamento-publico-para-prevencao-e-combate-a-incendios-durante-o-verao-amazonico">edital de chamamento público</a>
+            para celebrar termo de cooperação com organização para prevenir e combater incêndios urbanos, rurais e florestais no município. O objetivo é selecionar uma organização experiente e especializada para atuar entre julho a novembro de 2025 em regime de plantão 24h/dia, 7 dias na semana e também elaborar, implantar e executar os planos de trabalho.
+            <br> <br>
+            Seguindo pelo mesmo caminho, o Tribunal de Contas do Estado de Rondônia(TCE-RO)  reuniu, no dia 2 de maio, autoridades estaduais para cobrar ações concretas e coordenadas de prevenção e combate às queimadas e incêndios florestais visando prevenir que o cenário de 2024 se repita. Durante esta  <a class="textoLinks" href="https://tcero.tc.br/2025/05/02/tce-de-rondonia-cobra-acoes-do-estado-para-evitar-nova-crise-de-queimadas-em-2025/">reunião</a>, foi anunciado pelo estado um investimento de R$88 milhões de reais e seu plano para 2025, onde foi apresentado o planejamento de criar bases descentralizadas, uso de viaturas, aeronaves e capacitação de equipes para enfrentamento.
+            Neste encontro também foram apresentados números pelo governo estadual, onde, somente em 2024, 190 autos de infração foram lavrados, totalizando R$48 milhões em multas relacionadas a desmatamento ilegal e queimadas ilegais, além de prisões e apreensões de equipamentos.
+            <br> <br>
+            Para este ano, foi projetada uma redução de 50% nas queimadas e 40% no desmatamento ilegal em áreas prioritárias até o final de 2025 e, para os meses mais críticos de estiagem, foi previsto um reforço logístico com aeronaves e viaturas para uma resposta rápida aos focos detectados.
+            <br> <br>
+            Por fim, podemos concluir que tanto a gestão municipal quanto a estadual tem dado a devida importância para a situação ambiental de Rondônia e, espera-se dos cidadãos que, junto ao poder público, lutem para que tenhamos um horizonte de futuro sem fumaça.
         </p>
 
-        <p class="textos">É claro que, com a volta das chuvas, os efeitos mencionados foram reduzidos, mas e se vier a acontecer novamente no futuro? De qualquer forma, em qualquer época do ano é possível haver queimadas urbanas ou florestais, para isto, existe um número de WhatsApp, promovido pela Secretaria Municipal de Meio Ambiente e Desenvolvimento Sustentável(SEMA), dedicado às denúncias de queimadas.</p>
-        
+        <!--seção de introdução atualizada, continuar organizando as seções com mais conteúdo para cada assunto-->
+
+
         <hr class="separador">
 
         <h3 class="titulos">Ajude a combater as queimadas! Denuncie via WhatsApp:</h3>
         <h2 id="whatsappreferencia"><img src="images/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png" width="32px" height="28px">(69) 9 8423-4092
             <br>
-           
+
         </h2>
-        <p> Em casos de incêndios que coloquem residências em risco, o ideal é ligar diretamente no 193, número de emergência do Corpo de Bombeiro Militar.</p>
+        <p> Em casos de incêndios que coloquem residências em risco ou grandes áreas de mata, o ideal é ligar diretamente no 193, número de emergência do Corpo de Bombeiro Militar.</p>
     </div>
 
     <hr class="separador">
@@ -80,7 +103,7 @@
     <div class="oquefazer">
 
         <h3 class="titulos">O que fazer para não provocar queimadas?</h3>
-    
+
     <ul class="listas">
         <li>
             Descarte de cigarros, fósforos e demais materiais com potencial inflamável em local adequado;
@@ -96,14 +119,14 @@
     </ul>
 
     <p class="textos">
-        Diante destas informações, os cuidados devem ser ainda maiores durante o intervalo de julho a outubro, pois são os meses em que se concentra <b>79%</b> das queimadas no Brasil.
+        Deve-se atentar para que os cuidados sejam ainda maiores durante o intervalo de julho a outubro, pois são os meses em que se concentra 79% das queimadas no Brasil.
     </p>
-    
-<p id="observacaocriancaspagina">
-        • Desenvolvi uma página para que as crianças também possam aprender a cultivar melhor o meio ambiente e perpetuar as boas ações para o futuro:
-        <br> 
 
-        <a href="" id="linkpaginacrianca">Página</a>
+    <p id="observacaocriancaspagina">
+        • Desenvolvi uma página para que as crianças também possam aprender a cultivar melhor o meio ambiente e perpetuar as boas ações para o futuro:
+        <br>
+    </p>
+        <a href="eduque.html" id="linkpaginacrianca">Página</a>
 
 
     </div>
@@ -114,21 +137,21 @@
 
     <h3 class="titulos">Como contribuir com o meio ambiente de maneira simples?</h3>
 
-   
+
     <ul class="listas">
         <li>
-        <i style="color: green;" class="fas fa-recycle"></i>     Evite os itens descartáveis e utilize os reutilizáveis e, principalmente, adote um copo!  
+        <i style="color: green;" class="fas fa-recycle"></i>     Evite os itens descartáveis e utilize os reutilizáveis e, principalmente, adote um copo!
         </li>
     </ul>
 
         <img class="imgslista" src="images/coposimagem.jpg" alt="imagem de copo de vidro e copos de plástico para ilustrar sustentabilidade.">
 
     <ul class="listas">
-        
+
         <li>
             <i style="color: rgb(62, 62, 211);" class="fas fa-water" ></i>
             Reutilize a água da lava roupas para limpeza de casa ou descarga de vaso sanitário;
-            
+
         </li>
     </ul>
 
@@ -141,7 +164,7 @@
         </li>
     </ul>
     <img class="imgslista" src="images/torneira.jpeg" alt="imagem de pessoa fechando torneira para indicar economia.">
-  
+
     <p class="textos" style="font-size: 15px;width: 80%;">
             Pequenas atitudes, exercidas de forma coletiva, podem contribuir imensamente com o meio ambiente e com um futuro melhor para todos!
         </p>
@@ -151,13 +174,13 @@
 
     <h3 class="titulos">Comunidade</h3>
 
-          
+
             <h4 class="titulos" style="font-weight: bold;">
                 Horta Comunitária
             </h4>
 
         <img class="imgslista" src="images/hortacomunitaria1.jpeg" >
-        
+
         <p class="textos">Com uma horta comunitária, os moradores podem se unir para cultivar alimentos saudáveis, reduzir a dependência de alimentos ultraprocessados e portadores de químicos e, ao mesmo tempo, promover uma relação de conexão com a natureza.
         </p>
 
@@ -166,7 +189,7 @@
         </h4>
 
          <li class="listas">Alimentação Mais Saudável</li>
-      
+
          <p class="textos">
             Cultivar alimentos localmente, reduz a necessidade de sacos plásticos e transportes, ajudando a diminuir a pegada de carbono. E ainda assim, estimular uma alimentação mais saudável através de vegetais frescos e orgânicos.
         </p>
@@ -186,7 +209,7 @@
         <p class="textos"> Da mesma maneira, uma horta individual também poderia contribuir com o meio ambiente e estimular uma alimentação mais saudável e uma maior conexão com a natureza, mantendo, ainda, os benefícios de uma atividade benéfica à natureza.</p>
 
         <hr class="separador">
-        
+
         <li class="listas" style="font-weight: bold;">Compostagem</li>
 
         <img class="imgslista" src="images/composicao-de-composto-feito-de-comida-estragada_23-2149073813.jpg" >
@@ -195,7 +218,7 @@
         <p class="textos">
             Conforme o engenheiro agrônomo da Secretaria de Agricultura e Abastecimento de São Paulo, Osmar Mosca, explica:
             <br> <br>
-            “Compostagem é a técnica de aproveitamento de diversos materiais orgânicos de origem vegetal (como o lixo doméstico) que, por meio de um processo de fermentação aeróbica, se transformam no composto orgânico. 
+            “Compostagem é a técnica de aproveitamento de diversos materiais orgânicos de origem vegetal (como o lixo doméstico) que, por meio de um processo de fermentação aeróbica, se transformam no composto orgânico.
             <br> <br>
             Além de gerar um adubo natural de ótima qualidade para hortas caseiras, é uma excelente atividade educativa, contribuindo na formação da consciência e do entendimento sobre as leis ambientais, sendo uma prática evidente das transformações naturais pelas quais passam todos os organismos vivos”
         </p>
@@ -205,16 +228,16 @@
         </p>
 
         <p class="textos">
-            A seguir, deixarei o link da página de onde tirei as informações e que podem orientar aqueles interessados em 
+            A seguir, deixarei o link da página de onde tirei as informações e que podem orientar aqueles interessados em
             compostagem.
 
             <br> <br>
-            <a style="text-align: center; font-size: 20px;color: #004d40;" href="https://ciorganicos.com.br/biblioteca/aprenda-como-fazer-adubo-em-casa-usando-sobras-de-alimentos/" target="_blank" rel="noreferrer"><i class="fa-solid fa-up-right-from-square"></i>ciorganicos.com.br</a>    
+            <a style="text-align: center; font-size: 20px;color: #004d40;" href="https://ciorganicos.com.br/biblioteca/aprenda-como-fazer-adubo-em-casa-usando-sobras-de-alimentos/" target="_blank" rel="noreferrer"><i class="fa-solid fa-up-right-from-square"></i>ciorganicos.com.br</a>
         </p>
     </div>
 
     <hr class="separador">
-    
+
     <div class="desafiosVisitantes">
 
         <h3 class="titulos">Desafios Para os Visitantes</h3>
@@ -224,7 +247,7 @@
 
             <li>Economize a água da torneira nesta semana;</li>
 
-            <li>Por uma semana, desligue os aparelhos quando não     estiverem em uso e apague as luzes ao sair dos cômodos; 
+            <li>Por uma semana, desligue os aparelhos quando não     estiverem em uso e apague as luzes ao sair dos cômodos;
             </li>
 
             <li>Cultive uma planta ou tempero em casa;</li>
@@ -232,7 +255,7 @@
 
             <li>Na próxima vez que ir às compras, pergunte a si mesmo: <br> "<i>Eu realmente preciso disso?</i>"</li>
         </ul>
-    
+
     </div>
 
     <hr class="separador">
@@ -249,24 +272,27 @@
             Fontes e Referências
         </h3>
 
-        <ul class="listas">
-            <a class="listaLinks" href="https://www.saolucas.edu.br/noticias/aumento-de-queimadas-em-porto-velho-agrava-doencas-respiratorias">https://www.saolucas.edu.br/noticias/</a>
+        <ul>
+            <li>  <a class="listaLinks" href="https://www.saolucas.edu.br/noticias/aumento-de-queimadas-em-porto-velho-agrava-doencas-respiratorias">https://www.saolucas.edu.br/</a> </li>
 
-            <br><br>
+            <li><a class="listaLinks" href="https://www.portovelho.ro.gov.br/artigo/45742/utilidade-publica-unidades-de-saude-de-porto-velho-intensificam-atendimento-a-casos-respiratorios-em-meio-a-fumaca">https://www.portovelho.ro.gov.br/</a></li>
 
-            <a class="listaLinks" href="https://www.portovelho.ro.gov.br/artigo/45742/utilidade-publica-unidades-de-saude-de-porto-velho-intensificam-atendimento-a-casos-respiratorios-em-meio-a-fumaca">https://www.portovelho.ro.gov.br/artigo/</a>
+            <li><a class="listaLinks" href="https://ciorganicos.com.br/biblioteca/aprenda-como-fazer-adubo-em-casa-usando-sobras-de-alimentos/">https://ciorganicos.com.br/</a></li>
 
-            <br><br>
+            <li><a class="listaLinks" href="https://observaro.org.br/o-saldo-ambiental-de-2024-em-rondonia-entre-fogo-fumaca-e-crimes-ambientais/#:~:text=Totalidade%20das%20queimadas%20em%20Rond%C3%B4nia&text=O%20estado%20de%20Rond%C3%B4nia%20teve,dados%20do%20Monitor%20do%20Fogo.">https://observaro.org.br/</a></li>
 
-            <a class="listaLinks" href="https://ciorganicos.com.br/biblioteca/aprenda-como-fazer-adubo-em-casa-usando-sobras-de-alimentos/">https://ciorganicos.com.br/biblioteca/</a>
+            <li><a class="listaLinks" href="https://sema.portovelho.ro.gov.br/artigo/49363/prevencao-prefeitura-de-porto-velho-abre-chamamento-publico-para-prevencao-e-combate-a-incendios-durante-o-verao-amazonico">https://sema.portovelho.ro.gov.br/</a></li>
+
+            <li><a class="listaLinks" href="https://tcero.tc.br/2025/05/02/tce-de-rondonia-cobra-acoes-do-estado-para-evitar-nova-crise-de-queimadas-em-2025/">https://tcero.tc.br/</a></li>
+
         </ul>
     </div>
 
     <div class="contato">
         <p class="textos">Deseja enviar uma sugestão ou fazer uma crítica? Siga o link do formulário abaixo!</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcZwcR5gm-ZN8iQnHCByebfNkFuq1OFV6DTvKPgKQcHGWZJw/viewform?usp=dialog">  
-        Google Forms</a> <i class="fa-solid fa-envelope"></i>
-        </div> 
+        <a class="listaLinks" href="https://docs.google.com/forms/d/e/1FAIpQLSfcZwcR5gm-ZN8iQnHCByebfNkFuq1OFV6DTvKPgKQcHGWZJw/viewform?usp=dialog">
+        Google Forms</a>
+    </div>
 
     <footer class="rodape">
         <div class="rodapeConteudo">
