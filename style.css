@@ -1,7 +1,6 @@
 @media (max-width: 600px) {
   body {
     font-family: 'Roboto', sans-serif;
-    margin: 8px;
     background-color: #f0f8ff;
   }
 
@@ -286,12 +285,15 @@
   }
 
   .linkBotao{
-    text-decoration: none;
-    font-size: 20px;
-    border: outset 2px;
+    margin-inline: 5px;
+    padding: 8px 4px;
+    background-color: #00695c;
+    color: white;
+    border: none;
     border-radius: 4px;
-    color:#0645AD;
-    font-size: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
   }
 
   .fonteseRefs, .fontesExternas{
@@ -432,12 +434,12 @@
     transform: rotate(54deg) translate(5px, 5px);width: 35px;
   }
 
-    #menu-toggle:checked + .menu-icon span:nth-child(2) {
-      opacity: 0;
-    }
+  #menu-toggle:checked + .menu-icon span:nth-child(2) {
+    opacity: 0;
+  }
 
-    #menu-toggle:checked + .menu-icon span:nth-child(3) {
-      transform: rotate(-54deg) translate(10px, -10px);width: 35px;
+  #menu-toggle:checked + .menu-icon span:nth-child(3) {
+    transform: rotate(-54deg) translate(10px, -10px);width: 35px;
   }
 
   .controle-fonte{
@@ -449,20 +451,63 @@
   }
 
   .controle-fonte button {
-    margin: 5px;
+    margin: 0% 1.5%;
     margin-bottom: 0%;
+    top: 0%;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #004D40;
     color: white;
-    border: none;
-    border-radius: 4px;
     cursor: pointer;
     z-index: 10;
-    border: outset 2px #474747;
+    border: 2px #474747;
+    border-radius: 4px;
   }
 
   .controle-fonte button:active {
     background-color: #00695C;
   }
+  
+  .quiz {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 15px;
+    background-color: #e0f2f1;
+    border-radius: 8px;
+  }
+
+  .quiz button {
+    margin: 5px;
+    padding: 8px 16px;
+    background-color: #00695c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #botaoTentarNovamente {
+    margin-inline: 5px;
+    padding: 8px 16px;
+    background-color: #00695c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .quiz button:disabled {
+    background-color: #999;
+    cursor: default;
+  }
+
+  #resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #004d40;
+  }
+
 }
