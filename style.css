@@ -15,9 +15,9 @@
     max-width: 90%;
   }
 
-  .desafiosVisitantes{
+  .desafiosVisitantes, .cuidadosQueimadas, .oqueFazer {
     color: #000000;
-    text-align: left;
+    text-align: justify;
     margin: 20px auto;
     max-width: 90%;
     font-weight: 30;
@@ -113,12 +113,13 @@
   
   .textos {
     color: #212121;
-    text-align:left;
+    text-align:justify;
     margin-top: 2%;
     margin-bottom: 10px auto;
     padding-bottom: 0%;
     width: 100%;
     border: none;
+    text-indent: 1em;
   }
 
   .textos ul li{
@@ -157,7 +158,6 @@
     max-width: 90%;
     font-weight: 40;
     padding: 0px;
-    list-style: none;
   }
 
   .listas li {
