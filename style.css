@@ -152,8 +152,7 @@
   }
 
   .listas {
-    color: #000000;;
-    text-align: left;
+    color: #000000;
     margin: 0px auto;
     max-width: 90%;
     font-weight: 40;
@@ -206,7 +205,6 @@
   }
 
   .listaLinks {
-    font-size: 16px;
     display: block;
     margin-bottom: 5px;
     list-style:disc;
@@ -252,13 +250,15 @@
     border-radius:5px;
   }
 
+
   .fonteFotos{
-    font-size: 10px;
+    font-size: 80%;
     color: #777;
     font-style: italic;
     text-align: center;
     margin-top: 0px;
     padding: 0px;
+    width: 90%;
   }
 
   .imgvertical{
@@ -399,6 +399,7 @@
     margin: 10px 0;
     padding: 3px;
     width: fit-content;
+    text-align: left;
   }
 
   .menu i {
