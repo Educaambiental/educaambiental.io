@@ -13,6 +13,11 @@ if ('scrollRestoration' in history) {
         }
     });
 
+const legendas = document.querySelectorAll('.fonteFotos');
+legendas.forEach(legenda => {
+    legenda.setAttribute('aria-hidden', 'true');
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     let tamanhoBase = 16;
     let tamanhoAtual = tamanhoBase;
