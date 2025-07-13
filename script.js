@@ -41,3 +41,22 @@ document.addEventListener("DOMContentLoaded", function() {
         aplicarTamanho();
     });
 });
+
+
+document.getElementById("compartilhar").addEventListener("click", () => {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Projeto Educação Ambiental',
+            text: 'Confira este projeto que desenvolvi sobre sustentabilidade!',
+            url: window.location.href
+        }).then(() => {
+            console.log('Compartilhado com sucesso!');
+        }).catch((error) => {
+            console.error('Erro ao compartilhar:', error);
+        });
+    } else {
+        alert('Seu navegador não suporta compartilhamento direto.');
+    }
+});
+
+
