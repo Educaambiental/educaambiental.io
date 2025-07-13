@@ -155,7 +155,7 @@
   .listas {
     color: #000000;
     margin: 0px auto;
-    max-width: 90%;
+    width: 90%;
     font-weight: 40;
     padding: 0px;
   }
@@ -294,6 +294,15 @@
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
+    height: fit-content;
+  }
+
+  #compartilhar {
+    background-color: #008b5a;;
+  }
+
+  #compartilhar .linkBotao:hover {
+    background-color: #008b5a;
   }
 
   .fonteseRefs, .fontesExternas{
