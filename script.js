@@ -42,20 +42,28 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.getElementById('compartilhar').addEventListener('click', async () => {
+    const url = 'https://educaambiental.github.io/educaambiental.io/';
 
-document.getElementById("compartilhar").addEventListener("click", () => {
     if (navigator.share) {
-        navigator.share({
-            title: 'Projeto Educação Ambiental',
-            text: 'Confira este projeto que desenvolvi sobre sustentabilidade!',
-            url: window.location.href
-        }).then(() => {
-            console.log('Compartilhado com sucesso!');
-        }).catch((error) => {
-            console.error('Erro ao compartilhar:', error);
-        });
+        try {
+            await navigator.share({
+                title: document.title,
+                text: 'Confira este projeto sobre sustentabilidade!',
+                url: url
+            });
+        } catch (err) {
+            console.error('Erro ao compartilhar:', err);
+        }
     } else {
-        alert('Seu navegador não suporta compartilhamento direto.');
+        
+        try {
+            await navigator.clipboard.writeText(url);
+            alert("Link copiado na área de transferência!")
+        } 
+        catch (err) {
+            console.error('Falha ao copiar o link:', err);
+        }
     }
 });
 

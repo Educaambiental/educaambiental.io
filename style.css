@@ -1,45 +1,40 @@
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   body {
     font-family: 'Roboto', sans-serif;
     background-color: #f0f8ff;
+    font-size: 1em;
   }
 
   .introducao, .problemas, .ajudaWhatsapp, .finalizacao{
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
   }
 
-  .oquefazer{
+  .oquefazer, .comunidade, .finalizacaoSobre, .contato {
     text-align:center;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
   }
 
   .desafiosVisitantes, .cuidadosQueimadas, .oqueFazer {
     color: #000000;
     text-align: justify;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
     font-weight: 30;
     padding: 0;
     list-style:disc;
   }
-
-  .comunidade, .finalizacaoSobre, .contato{
-    max-width: 90%;
-    text-align:center;
-    margin: 20px auto;
-  }
   
-  .conhecimentosInfantis, .simplesAtividades{
+  .praticasInfantis, .simplesAtividades{
     text-align: left;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
   }
 
   /*Início da seção de atividades sustentáveis*/
   .atividadesSustentaveis{
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
   }
 
@@ -49,9 +44,9 @@
     margin-bottom: 1% auto;
     max-width: 100%;
     font-weight: bold;
-    padding: 0px;
+    padding: 0;
     list-style: decimal;
-    border: 0px;
+    border: 0;
   }
 
   .imgsAtivSust {
@@ -62,11 +57,11 @@
     left: 0%; 
     text-align: left;
     border: 2px solid #004D40;
-    border-radius:5px ;
+    border-radius: 5px;
   }
 
   .finalizacao{
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
   }
 
@@ -75,62 +70,27 @@
     width: 90%;
     margin: 0 auto;
   }
-
-  .impactos-criancas {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    background-color: #e3f2fd;
-    border-radius: 10px;
-  }
-  
-  .impactos-criancas h3{
-    font-size: 24px;
-    color: #0288d1;
-  }
-  
-  .impacto-item {
-    margin-bottom: 20px;
-  }
-  
-  .impacto-item img{
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-    margin: 10px 0;
-  }
-  
-  .impacto-item h4{
-    font-size: 20px;
-    color: #01579b;
-  }
-  
-  .impacto-item p{
-    font-size: 16px;
-    color: #0277bd;
-    margin: 10px 0;
-  }
   
   .textos {
     color: #212121;
     text-align:justify;
     margin-top: 2%;
-    margin-bottom: 10px auto;
+    margin-bottom: 0.625rem auto;
     padding-bottom: 0%;
     width: 100%;
     border: none;
-    text-indent: 1em;
+    text-indent: 1rem;
   }
 
   .textos ul li{
     width: 80%;
-    font-size: 15px;
+    font-size: 0.938rem;
     list-style: none;
   }
 
   .titulos {
     color: #004d40;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 100%;
     font-weight: 30px;
     text-align:center;
@@ -146,18 +106,18 @@
 
   .tituloSobre {
     color: #004D40;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     width: 90%;
-    font-weight: 30px;
+    font-weight: 1.875rem;
     text-align:center;
   }
 
   .listas {
     color: #000000;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 90%;
     font-weight: 40;
-    padding: 0px;
+    padding: 0;
   }
 
   .listas li {
@@ -166,37 +126,35 @@
   
   .separador {
     border: none;
-    border-radius: 10px;
-    height: 1px;
+    border-radius: 0.625rem;
+    height: 0.063rem;
     background-color: #00A86B; 
-    margin: 20px;
-    margin-bottom: 0px; 
+    margin: 1.25rem;
+    margin-bottom: 0; 
     background:  #004D40;
   }
 
   .rodape {
     color: #004D40;
     text-align: center;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    border-bottom-left-radius: 30px;
-    margin-top: 0px;
+    padding: 0;
+    margin-top: 0;
   }
 
   .rodapeConteudo p {
-    margin: 20px 0;
-    font-size: 14px;
+    margin: 1.25rem 0;
+    font-size: 0.875rem;
   }
 
   .infoProjeto {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #004D40;
     }
 
   .fraseFinal {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .textoLinks{
@@ -206,7 +164,7 @@
 
   .listaLinks {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
     list-style:disc;
     text-decoration: none;
     color:#0645AD;
@@ -218,8 +176,8 @@
   }
 
   #observacaocriancaspagina {
-    font-size: 13px;
-    margin: 20px auto;
+    font-size: 0.813rem;
+    margin: 1.25rem auto;
     max-width: 90%;
     font-weight: bold;
   }
@@ -234,10 +192,10 @@
     max-width: 100%; 
     height: auto;    
     display: block;  
-    margin: 10px auto; 
+    margin: 0.625rem auto; 
     text-align: center;
-    border: 1px solid #000000;
-    border-radius:5px;
+    border: 0.063rem solid #000000;
+    border-radius: 5px;
   }
 
   .imgslista {
@@ -245,7 +203,7 @@
     max-width: 100%; 
     height: auto;    
     display: block;  
-    margin: 10px auto; 
+    margin: 0.625rem auto; 
     border: 2px solid #008b27;
     border-radius:5px;
   }
@@ -256,16 +214,16 @@
     color: #777;
     font-style: italic;
     text-align: center;
-    margin-top: 0px;
-    padding: 0px;
-    width: 90%;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .imgvertical{
     width: 80%;
     max-width: 48%; 
     height: auto;      
-    margin: 10px auto; 
+    margin: 0.625rem auto; 
     text-align: center;
     border: 2px solid #008b27;
     border-radius:5px ;
@@ -285,14 +243,14 @@
   }
 
   .linkBotao{
-    margin-inline: 5px;
-    padding: 8px 4px;
+    margin-inline: 0.313rem;
+    padding: 0.5rem 0.25rem;
     background-color: #00695c;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     height: fit-content;
   }
@@ -305,19 +263,23 @@
     background-color: #008b5a;
   }
 
+  #mensagemCompartilhar {
+    display: none;
+  }
+
   .fonteseRefs, .fontesExternas{
     color: #000000;
     text-align: left;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     max-width: 90%;
     padding: 0;
   }
 
   .carousel {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     overflow-x: scroll;
-    padding: 10px;
+    padding: 0.625rem;
     scroll-snap-type: x mandatory;
   }
     
@@ -327,26 +289,26 @@
   
   .carousel-item {
     flex: 0 0 auto;
-    width: 200px;
+    width: 12.5rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0.5;
     scroll-snap-align: center;
   }
   .carousel {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     overflow-x: scroll;
-    padding: 10px;
+    padding: 0.625rem;
     scroll-snap-type: x mandatory;
   }
   
   .carousel::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
   
   .carousel-item {
     flex: 0 0 auto;
-    width: 250px; 
+    width: 15.625rem; 
     height: auto;
     border-radius: 8px;
     scroll-snap-align: center;
@@ -355,7 +317,7 @@
     .menu-container {
     position: fixed;
     width: 60%;
-    padding-top: 10%;
+    padding-top: 3rem;
     }
 
     #menu-toggle {
@@ -363,10 +325,10 @@
     }
 
   .menu-icon {
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
-    width: 28px;
-    height: 24px;
+    width: 1.75rem;
+    height: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -375,28 +337,28 @@
   .menu-icon span {
     display: block;
     width: 100%;
-    height: 3px;
+    height: 0.188rem;
     background-color: #00695c;
     transition: 0.2s;
     background-color: #005b4b;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     z-index: 10;
   }
 
   .menu {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 4em;
     left: 0;
     background-color: #e8f5e9;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 0.625rem rgba(0,0,0,0.1);
     border: 1px solid #cfcfcf;
-    padding: 10px;
+    padding: 0.625rem;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #eeeeee;
-    }
+  }
 
   .menu ul {
     list-style: none;
@@ -405,15 +367,15 @@
   }
 
   .menu li {
-    margin: 10px 0;
-    padding: 3px;
+    margin: 0.625rem 0;
+    padding: 0.188rem;
     width: fit-content;
     text-align: left;
   }
 
   .menu i {
     color: #004D40;
-    margin-right: 2px;
+    margin-right: 0.125rem;
   }
 
   .menu a {
@@ -425,7 +387,7 @@
   #botaopagina a{
     align-self: center;
     width: 80%;
-    font-size: 19px;
+    font-size: 1.188rem;
     font-weight: bold;
     color: #00453a;
     text-decoration: none;
@@ -464,7 +426,7 @@
     margin: 0% 1.5%;
     margin-bottom: 0%;
     top: 0%;
-    padding: 5px 10px;
+    padding: 0.313rem 0.625rem;
     font-size: 1.04rem;
     background-color: #004D40;
     color: white;
@@ -480,33 +442,33 @@
   
   .quiz {
     text-align: center;
-    margin: 20px auto;
-    max-width: 400px;
-    padding: 15px;
+    margin: 1.25rem auto;
+    max-width: 25rem;
+    padding: 0.938rem;
     background-color: #e0f2f1;
     border-radius: 8px;
   }
 
   .quiz button {
-    margin: 5px;
-    padding: 8px 16px;
+    margin: 0.313rem;
+    padding: 0.5rem 1rem;
     background-color: #00695c;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   #botaoTentarNovamente {
-    margin-inline: 5px;
-    padding: 8px 16px;
+    margin-inline: 0.313rem;
+    padding: 0.5rem 1rem;
     background-color: #00695c;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .quiz button:disabled {
@@ -515,7 +477,7 @@
   }
 
   #resultado {
-    margin-top: 15px;
+    margin-top: 0.938rem;
     font-weight: bold;
     color: #004d40;
   }

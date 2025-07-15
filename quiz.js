@@ -20,7 +20,7 @@ const perguntas = [
         correta: 0
     },
     {
-        pergunta: "5. Como voce pode contribuir com o meio ambiente agora?", opcoes: ["Compartilhando esta página com conhecidos", "Visualizar a página e sair sem nenhuma mudança"],
+        pergunta: "5. Como voce pode contribuir com o meio ambiente agora?", opcoes: ["Compartilhando esta página com conhecidos", "Apenas visualizar a página"],
         correta: 0
     },
     {
