@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Ambiental</title>
+    
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="menu-container">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="menu">
+            <ul>                
+                <li> <i class="fa-solid fa-house"></i>
+                    <a href="index.html">Página Principal</a></li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <a href="acaolocal.html">Atividades Sustentáveis</a></li>
+                <li> 
+                    <i class="fa-solid fa-child"></i>
+                    <a href="eduque.html">Eduque o Futuro</a></li>
+                <li>
+                    <i class="fa-solid fa-circle-play"></i>
+                    <a href="quiz.html">Quiz da Sustentabilidade</a></li>
+                <li>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <a href="sobre.html">Sobre o Projeto</a></li>
+            </ul>
+        </nav>
+    </div>
+     <div class="quiz">
+        <h2 class="titulos">Quiz da Sustentabilidade</h2>
+        <button id="botaoComecar" onclick="reiniciarQuiz()" style="display: inline-block; font-size: 150%;">Começar Quiz</button>
+        <div id="pergunta">Carregando pergunta...</div>
+
+        <div id="opcoes"></div>
+
+        <button id="proxima" onclick="proximaPergunta()" style="display: none;">Próxima</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <div style="text-align: center;">
+        <button id="botaoTentarNovamente" onclick="reiniciarQuiz()">
+            Tentar Novamente
+        </button>
+    </div>
+    <p class="textos" id="textoRodapé">
+        Seu resultado ficará disponível após responder a todas as perguntas!
+    </p>
+    <script src="quiz.js"></script>
+</body>
+</html>
