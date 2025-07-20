@@ -23,16 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
     let tamanhoAtual = tamanhoBase;
 
     function aplicarTamanho() {
-        document.body.style.fontSize = tamanhoAtual + "px";
+        document.documentElement.style.fontSize = tamanhoAtual + "px";
     }
 
     document.getElementById("aumentar").addEventListener("click", function() {
-        tamanhoAtual += 2;
+        tamanhoAtual += 1;
         aplicarTamanho();
     });
 
     document.getElementById("diminuir").addEventListener("click", function() {
-        tamanhoAtual -= 2;
+        tamanhoAtual -= 1;
         aplicarTamanho();
     });
 
@@ -59,7 +59,7 @@ document.getElementById('compartilhar').addEventListener('click', async () => {
         
         try {
             await navigator.clipboard.writeText(url);
-            alert("Link copiado na área de transferência!")
+            alert("Link copiado para a área de transferência!")
         } 
         catch (err) {
             console.error('Falha ao copiar o link:', err);
