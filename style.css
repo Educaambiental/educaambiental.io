@@ -225,10 +225,10 @@ body {
 }
 
 .imgsEducadorCom{
-  width: 40%;
+  width:40%;
   height: 10%;    
   display: flexbox;  
-  margin: 0.625rem auto; 
+  margin: 0 auto; 
   border: 2px solid #008b27;
   border-radius: 5px;
 }
@@ -715,6 +715,28 @@ padding-top: 48px;
     border-radius:5px;
   }
 
+  .imgsEduque{
+    width: 80%;
+    height: 10%;    
+    display: block;  
+    margin: 0.625rem auto; 
+    border: 2px solid #008b27;
+    border-radius: 5px;
+  }
+
+  .secaoImagensEducador{
+    margin-inline: 0 auto;
+    width: 100%;
+  }
+
+  .imgsEducadorCom{
+    width:46%;
+    height: 10%;    
+    display: flexbox;  
+    margin: 0 auto; 
+    border: 1px solid #008b27;
+    border-radius: 5px;
+  }
 
   .fonteFotos{
     font-size: 0.8rem;
