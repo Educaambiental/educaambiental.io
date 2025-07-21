@@ -52,12 +52,12 @@ body {
 }
 
 .imgsAtivSust {
-  width: 70%; 
-  height: 10%;    
+  width: 50%; 
+  height: 10% auto;    
   display: block;
   border: 2px solid #004D40;
   border-radius: 5px;
-  margin-inline: 15% auto;
+  margin-inline: 25% auto;
 }
 
 .finalizacao{
@@ -110,8 +110,9 @@ body {
   color: #004D40;
   margin: 1.25rem auto;
   width: 90%;
-  font-weight: 1.875rem;
+  font-weight: 1.8rem;
   text-align:center;
+  font-size: 64px;
 }
 
 .listas {
@@ -166,17 +167,34 @@ body {
 
 .listaLinks {
   display: block;
-  margin-bottom: 0.313rem;
+  margin-bottom: 1%;
   list-style:disc;
   text-decoration: none;
   color:#0645AD;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  display: list-item;
+}
+
+.listaLinks::marker{
+  color: #000000;
 }
 
 .listaLinks:link, .listaLinks:visited{
   color: #0000EE;
 }
+
+.textosLinks{
+  color: #212121;
+  text-align:justify;
+  margin-top: 0%;
+  margin-bottom: 0.625rem auto;
+  padding-bottom: 0%;
+  width: 100%;
+  border: none;
+  text-indent: 1rem;
+  font-size: 1.5rem;
+  }
 
 #observacaocriancaspagina {
   font-size: 0.813rem;
@@ -440,11 +458,11 @@ padding-top: 48px;
 }
 
 .controle-fonte button {
-  margin: 0% 1%;
+  margin: 0% 0.5%;
   margin-bottom: 0%;
   top: 0%;
   padding: 5px 10px;
-  font-size: 40%;
+  font-size: 32px;
   background-color: #004D40;
   color: white;
   cursor: pointer;
@@ -637,6 +655,27 @@ padding-top: 48px;
     color:#0645AD;
     text-align: left;
     font-size: 1rem;
+    display: list-item;
+  }
+
+  .listaLinks::marker{
+    color: #000000;
+  }
+
+  .listaLinks:link, .listaLinks:visited{
+    color: #0000EE;
+  }
+
+  .textosLinks{
+    color: #212121;
+    text-align:justify;
+    margin-top: 2%;
+    margin-bottom: 0.625rem auto;
+    padding-bottom: 0%;
+    width: 100%;
+    border: none;
+    text-indent: 1rem;
+    font-size: 1rem;
   }
   
   .separador {
@@ -675,10 +714,6 @@ padding-top: 48px;
   .textoLinks{
     text-decoration: none;
     color:#0645AD;
-  }
-
-  .listaLinks:link, .listaLinks:visited{
-    color: #0000EE;
   }
 
   #observacaocriancaspagina {
@@ -915,7 +950,8 @@ padding-top: 48px;
 
   #botaopagina a{
     align-self: center;
-    width: 80%;
+    width: fit-content;
+    height: fit-content;
     font-size: 1.188rem;
     font-weight: bold;
     color: #00453a;
