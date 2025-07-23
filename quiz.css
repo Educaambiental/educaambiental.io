@@ -21,7 +21,7 @@ body {
 .menu-container {
   position: fixed;
   width: 60%;
-  padding-top: 16px;
+  padding-top: 2px;
 }
 
 #menu-toggle {
