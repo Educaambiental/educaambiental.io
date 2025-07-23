@@ -3,6 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f0f8ff;
   font-size: 4rem;
+  width: 90%;
+  margin-inline: 5%;
 }
 
 .introducao, .problemas, .ajudaWhatsapp, .finalizacao{
@@ -52,12 +54,12 @@ body {
 }
 
 .imgsAtivSust {
-  width: 50%; 
-  height: 10% auto;    
+  width: 40%;
+  height: 5% auto;    
   display: block;
   border: 2px solid #004D40;
   border-radius: 5px;
-  margin-inline: 25% auto;
+  margin-inline: 30% auto;
 }
 
 .finalizacao{
@@ -174,6 +176,7 @@ body {
   text-align: left;
   font-size: 1.8rem;
   display: list-item;
+  width: fit-content;
 }
 
 .listaLinks::marker{
@@ -421,8 +424,9 @@ padding-top: 48px;
 #botaopagina a{
   align-self: center;
   width: 80%;
-  font-size: 1.188rem;
+  font-size: 2rem;
   font-weight: bold;
+  background-color: white;
   color: #00453a;
   text-decoration: none;
   justify-content: center;

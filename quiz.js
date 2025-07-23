@@ -68,7 +68,7 @@ function responder(opcaoEscolhida) {
     }
     
     document.querySelectorAll("#opcoes button").forEach(btn => btn.disabled = true);
-    document.getElementById("proxima").style.display = "inline-block";
+    document.getElementById("proxima").style.display = "flex";
 }
 
 function proximaPergunta() {
@@ -98,7 +98,8 @@ function reiniciarQuiz() {
     document.getElementById("botaoTentarNovamente").style.display = "none";
     mostrarPergunta();
     document.getElementById("textoRodapé").style.display = "inline-block";
-    document.getElementById("opcoes","pergunta").style.display = "inline-block";
+    document.getElementById("opcoes").style.display = "inline-block";
     document.getElementById("pergunta").style.display = "inline-block";
+    document.getElementById("pergunta").style.width = "100%";
     document.getElementById("botaoComecar").style.display = "none";
 }
