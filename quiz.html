@@ -50,20 +50,21 @@
         <div id="pergunta">Carregando pergunta...</div>
 
         <div id="opcoes"></div>
-
-        <button id="proxima" onclick="proximaPergunta()" style="display: none;">Próxima</button>
-
+        <div style="text-align: center;">
+            <button id="proxima" onclick="proximaPergunta()">
+                Próxima
+            </button>
+        </div>
         <div id="resultado"></div>
     </div>
-
+    <p class="textos" id="textoRodapé">
+        Seu resultado ficará disponível após responder a todas as perguntas!
+    </p>
     <div style="text-align: center;">
         <button id="botaoTentarNovamente" onclick="reiniciarQuiz()">
             Tentar Novamente
         </button>
     </div>
-    <p class="textos" id="textoRodapé">
-        Seu resultado ficará disponível após responder a todas as perguntas!
-    </p>
     <script src="quiz.js"></script>
 </body>
 

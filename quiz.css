@@ -21,7 +21,7 @@ body {
 .menu-container {
   position: fixed;
   width: 60%;
-  padding-top: 0;
+  padding-top: 2px;
 }
 
 #menu-toggle {
@@ -131,7 +131,7 @@ body {
 #proxima{
   width: fit-content;
   padding-inline: 1%;
-  margin-inline: 46%;
+  margin-inline: 43.3%;
 }
 
 #pergunta, #proxima, #botaoTentarNovamente, #opcoes, #textoRodapé {
@@ -328,7 +328,7 @@ display: none;
 #proxima{
   width: fit-content;
   padding-inline: 1%;
-  margin-inline: 39.1%;
+  margin-inline: 42%;
 }
 
   #botaoTentarNovamente {

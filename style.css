@@ -539,6 +539,8 @@ padding-top: 48px;
     max-width: 90%;
   }
 
+  .contato{margin-bottom: 0;}
+
   .desafiosVisitantes, .cuidadosQueimadas, .oqueFazer {
     color: #000000;
     text-align: justify;
@@ -658,8 +660,9 @@ padding-top: 48px;
     list-style: disc;
     color:#0645AD;
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.02rem;
     display: list-item;
+    width: fit-content;
   }
 
   .listaLinks::marker{
