@@ -7,7 +7,7 @@ body {
   margin-inline: 5%;
 }
 
-.introducao, .problemas, .ajudaWhatsapp, .finalizacao{
+.introducao, .problemas, #ajudaWhatsapp, .finalizacao{
   margin: 1.25rem auto;
   max-width: 90%;
 }
@@ -528,7 +528,7 @@ padding-top: 48px;
     background-color: #f0f8ff;
   }
 
-  .introducao, .problemas, .ajudaWhatsapp, .finalizacao{
+  .introducao, .problemas, #ajudaWhatsapp, .finalizacao{
     margin: 1.25rem auto;
     max-width: 90%;
   }
