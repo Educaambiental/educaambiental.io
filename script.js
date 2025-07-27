@@ -67,4 +67,19 @@ document.getElementById('compartilhar').addEventListener('click', async () => {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const botaoQrCode = document.getElementById("botaoQrCode");
+    const imgQrCode = document.getElementById("imgQrCode");
+
+    botaoQrCode.addEventListener('click', function () {
+        if (imgQrCode.style.display === "none" || imgQrCode.style.display === "") {
+            imgQrCode.style.display = "flex";
+            botaoQrCode.innerText = "Esconder QRCode ▲";
+
+        } else {
+            imgQrCode.style.display = "none";
+            botaoQrCode.innerText = "Mostrar QRCode ▼";
+        }
+    });
+});
 

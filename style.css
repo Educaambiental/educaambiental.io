@@ -53,13 +53,19 @@ body {
   font-size: 1.5rem;
 }
 
-.imgsAtivSust {
+.imgsAtivSust, #imgQrCode {
   width: 40%;
   height: 5% auto;    
   display: block;
   border: 2px solid #004D40;
   border-radius: 5px;
   margin-inline: 30% auto;
+}
+
+#imgQrCode {
+  width: 40%;
+  margin: auto;
+  display: none;
 }
 
 .finalizacao{
@@ -276,7 +282,7 @@ body {
 
 .imglogojogos{
   border: none;
-  max-width: 50%;
+  width: 30%;
   border-radius: 40px;
   margin-top: 3%;
 }
@@ -287,9 +293,9 @@ body {
   margin: 0 auto;
 }
 
-.linkBotao{
+.linkBotao, #compartlhar, #botaoQrCode{
   margin-inline: 0.313rem;
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem;
   background-color: #00695c;
   color: white;
   border: none;
@@ -300,12 +306,8 @@ body {
   height: fit-content;
 }
 
-#compartilhar {
+#compartilhar, #botaoQrCode {
   background-color: #008b5a;;
-}
-
-#compartilhar .linkBotao:hover {
-  background-color: #008b5a;
 }
 
 #mensagemCompartilhar {
@@ -521,6 +523,13 @@ padding-top: 48px;
   color: #004d40;
 }
 
+/*media query para tamanho da imglogojogos*/
+@media (min-width: 1500px) {
+  .imglogojogos {
+    width: 20%;
+  }
+} 
+
 /*Mobile e Tablets Pequenos*/
 @media (max-width: 768px) {
   body {
@@ -576,7 +585,7 @@ padding-top: 48px;
     font-size: 1em;
   }
 
-  .imgsAtivSust {
+  .imgsAtivSust, #imgQrCode {
     width: 90%; 
     height: auto;    
     display: block;  
@@ -584,6 +593,12 @@ padding-top: 48px;
     margin-inline: 3% auto;
     border: 2px solid #004D40;
     border-radius: 5px;
+  }
+
+  #imgQrCode {
+    width: 70%;
+    margin: auto;
+    display: none;
   }
 
   .finalizacao{
@@ -813,9 +828,9 @@ padding-top: 48px;
     margin: 0 auto;
   }
 
-  .linkBotao{
+  .linkBotao, #compartilhar, #botaoQrCode{
     margin-inline: 0.313rem;
-    padding: 0.5rem 0.25rem;
+    padding: 0.25rem 0.25rem;
     background-color: #00695c;
     color: white;
     border: none;
@@ -824,14 +839,12 @@ padding-top: 48px;
     font-size: 1rem;
     text-decoration: none;
     height: fit-content;
+    display: flex;
   }
 
-  #compartilhar {
-    background-color: #008b5a;;
-  }
-
-  #compartilhar .linkBotao:hover {
+  #compartilhar, #botaoQrCode {
     background-color: #008b5a;
+    padding: 0.5rem;
   }
 
   #mensagemCompartilhar {
