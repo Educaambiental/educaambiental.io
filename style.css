@@ -805,7 +805,7 @@ padding-top: 48px;
     width: 100%;
   }
 
-  .imgvertical{
+  .imgvertical {
     width: 80%;
     max-width: 48%; 
     height: auto;      
@@ -815,10 +815,10 @@ padding-top: 48px;
     border-radius:5px ;
   }
 
-  .imglogojogos{
+  .imglogojogos {
     border: none;
-    max-width: 50%;
-    border-radius: 40px;
+    width: 40%;
+    border-radius: 30px;
     margin-top: 3%;
   }
   
@@ -845,10 +845,6 @@ padding-top: 48px;
   #compartilhar, #botaoQrCode {
     background-color: #008b5a;
     padding: 0.5rem;
-  }
-
-  #mensagemCompartilhar {
-    display: none;
   }
 
   .fonteseRefs, .fontesExternas{
