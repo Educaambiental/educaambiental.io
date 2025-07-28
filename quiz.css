@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #F6F7FC;
   text-align: center;
   font-size: 1em;
   width: 90%;
@@ -185,7 +185,7 @@ display: none;
 @media (max-width: 768px) {
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f8ff;
+    background-color: #F6F7FC;
     text-align: center;
     font-size: 1em;
   }
