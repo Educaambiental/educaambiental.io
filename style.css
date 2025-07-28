@@ -1,7 +1,7 @@
 /*Desktop e Outros*/
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F6F7FC;
+  background-color: #f0f8ff;
   font-size: 4rem;
   width: 90%;
   margin-inline: 5%;
@@ -536,7 +536,7 @@ padding-top: 48px;
 @media (max-width: 768px) {
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F6F7FC;
+    background-color: #f0f8ff;
   }
 
   .introducao, .problemas, #ajudaWhatsapp, .finalizacao{
