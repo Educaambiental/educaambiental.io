@@ -74,12 +74,17 @@ document.addEventListener("DOMContentLoaded", function () {
     botaoQrCode.addEventListener('click', function () {
         if (imgQrCode.style.display === "none" || imgQrCode.style.display === "") {
             imgQrCode.style.display = "flex";
+            void imgQrCode.offsetWidth;
+            imgQrCode.style.opacity = "1";
             botaoQrCode.innerText = "Esconder QRCode ▲";
 
         } else {
-            imgQrCode.style.display = "none";
+            imgQrCode.style.opacity = "0";
             botaoQrCode.innerText = "Mostrar QRCode ▼";
+
+            setTimeout(()=> {
+                imgQrCode.style.display = "none";
+            }, 400);
         }
     });
 });
-
