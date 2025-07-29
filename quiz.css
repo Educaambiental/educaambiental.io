@@ -58,10 +58,11 @@ body {
   background-color: #e8f5e9;
   box-shadow: 0 2px 0.625rem rgba(0,0,0,0.1);
   border: 1px solid #cfcfcf;
+  border-right: solid 3px #005b4b;
   padding: 0.625rem;
   border-radius: 4px;
   font-size: 2.2rem;
-  background-color: #eeeeee;
+  background-color: #e8e8e8;
 }
 
 .menu ul {
@@ -240,11 +241,12 @@ display: none;
     left: 0;
     background-color: #e8f5e9;
     box-shadow: 0 2px 0.625rem rgba(0,0,0,0.1);
-    border: 1px solid #cfcfcf;
+    border: 1px solid #adadad;
+    border-right: solid 3px #005b4b;
     padding: 0.625rem;
     border-radius: 4px;
     font-size: 1.25rem;
-    background-color: #eeeeee;
+    background-color: #e8e8e8;
   }
 
   .menu ul {
