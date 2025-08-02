@@ -1,6 +1,6 @@
 /*Desktop e Outros*/
 body {
-  background-color: #edf8f6;;
+  background-color: #eefffc;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -364,9 +364,9 @@ body {
 }       
 
 .menu-container {
-position: fixed;
-width: 60%;
-padding-top: 48px;
+  position: fixed;
+  width: 60%;
+  padding-top: 9px;
 }
 
 #menu-toggle {
@@ -397,7 +397,7 @@ padding-top: 48px;
 
 .menu {
   position: absolute;
-  top: 96px;
+  top: 64px;
   left: 0;
   transform: translateX(-100%);
   opacity: 0;
@@ -472,8 +472,9 @@ padding-top: 48px;
   display: flex;
   justify-content: center;
   position:relative;
-  margin-bottom: 0%;
+  margin: 0 auto;
   padding-bottom: 1%;
+  width: 30%;
 }
 
 .controle-fonte button {
@@ -543,11 +544,22 @@ padding-top: 48px;
     width: 20%;
   }
 } 
+/*media query para imgsAtivSust em telas de tablets*/
+@media (max-width: 960px) {
+  .imgsAtivSust {
+  width: 60%;
+  height: 5% auto;    
+  display: block;
+  border: 2px solid #004D40;
+  border-radius: 5px;
+  margin-inline: 19.7% auto;
+}
+}
 
 /*Mobile e Tablets Pequenos*/
 @media (max-width: 768px) {
   body {
-    background-color: #f1f9f8;
+    background-color: #eefffc;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -921,15 +933,15 @@ padding-top: 48px;
     scroll-snap-align: center;
   }          
   
-    .menu-container {
+  .menu-container {
     position: fixed;
     width: 60%;
     top: 0;
-    }
+  }
 
-    #menu-toggle {
-      display: none;          
-    }
+  #menu-toggle {
+    display: none;          
+  }
 
   .menu-icon {
     font-size: 1.25rem;
@@ -942,7 +954,6 @@ padding-top: 48px;
   }
 
   .menu-icon span {
-    top: 48px;
     display: block;
     width: 100%;
     height: 3px;
@@ -956,7 +967,7 @@ padding-top: 48px;
 
   .menu {
     position: absolute;
-    top: 80px;
+    top: 48px;
     left: 0;
     transform: translateX(-100%);
     opacity: 0;
