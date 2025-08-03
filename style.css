@@ -58,7 +58,7 @@ body {
   padding: 0;
   list-style: decimal;
   border: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .imgsAtivSust, #imgQrCode {
@@ -151,8 +151,7 @@ body {
   height: 0.063rem;
   background-color: #00A86B; 
   margin: 1.25rem;
-  margin-bottom: 0; 
-  background:  #004D40;
+  margin-bottom: 0;
 }
 
 .rodape {
@@ -222,8 +221,18 @@ body {
   font-weight: bold;
 }
 
+.whatsappLinks {
+  color: #007360;
+  text-decoration: none;
+  transition:0.2s;
+}
+
+.whatsappLinks:hover {
+  color: #25d366;
+  text-decoration: none;
+}
+
 #whatsappreferencia {
-  color: #003c32;
   text-align: center;
   font-size: 90%;
 }
@@ -746,8 +755,7 @@ body {
     height: 0.063rem;
     background-color: #00A86B; 
     margin: 1.25rem;
-    margin-bottom: 0; 
-    background:  #004D40;
+    margin-bottom: 0;
   }
 
   .rodape {
