@@ -818,6 +818,7 @@ body {
   color: #007360;
   text-decoration: none;
   transition:0.2s;
+  pointer-events: auto;
 }
 
 .whatsappLinks:hover {
