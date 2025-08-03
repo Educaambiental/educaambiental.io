@@ -150,8 +150,9 @@ body {
   border-radius: 0.625rem;
   height: 0.063rem;
   background-color: #00A86B; 
-  margin: 1.25rem;
+  margin: 1.5rem;
   margin-bottom: 0;
+  background: #003a30;
 }
 
 .rodape {
@@ -177,9 +178,14 @@ body {
   margin-bottom: 0.625rem;
 }
 
-.textoLinks{
+.textoLinks {
   text-decoration: none;
   color:#0645AD;
+  transition: 0.2s;
+}
+
+.textoLinks:hover {
+  font-size: 1.6rem;
 }
 
 .listaLinks {
@@ -756,6 +762,7 @@ body {
     background-color: #00A86B; 
     margin: 1.25rem;
     margin-bottom: 0;
+    background: #003a30; 
   }
 
   .rodape {
@@ -784,6 +791,11 @@ body {
   .textoLinks{
     text-decoration: none;
     color:#0645AD;
+    transition: 0.2s;
+  }
+
+  .textoLinks:hover {
+    font-size: 1.1rem;
   }
 
   #observacaocriancaspagina {
@@ -792,9 +804,19 @@ body {
     max-width: 90%;
     font-weight: bold;
   }
+
+  .whatsappLinks {
+  color: #007360;
+  text-decoration: none;
+  transition:0.2s;
+}
+
+.whatsappLinks:hover {
+  color: #25d366;
+  text-decoration: none;
+}
   
   #whatsappreferencia {
-    color: #003c32;
     text-align: center;
     font-size: 2rem;
   }
