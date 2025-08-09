@@ -454,21 +454,12 @@ body {
   text-decoration: none;
   color: #004D40;
   font-weight: bold;
+  transition: 0.2s;
 }
 
-#botaopagina a{
-  align-self: center;
-  width: 80%;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: white;
-  color: #00453a;
-  text-decoration: none;
-  justify-content: center;
-}
-
-.menu a:active {
-  font-weight: normal;
+.menu a:hover, .menu a:active {
+  font-weight: bolder;
+  font-size: 2.35rem;
 }
 
 #menu-toggle:checked + .menu-icon + .menu {
@@ -567,13 +558,13 @@ body {
 /*media query para imgsAtivSust em telas de tablets*/
 @media (max-width: 960px) {
   .imgsAtivSust {
-  width: 60%;
-  height: 5% auto;    
-  display: block;
-  border: 2px solid #004D40;
-  border-radius: 5px;
-  margin-inline: 19.7% auto;
-}
+    width: 60%;
+    height: 5% auto;    
+    display: block;
+    border: 2px solid #004D40;
+    border-radius: 5px;
+    margin-inline: 19.7% auto;
+  }
 }
 
 /*Mobile e Tablets Pequenos*/
@@ -623,7 +614,7 @@ body {
     font-size: 1rem;
   }
   
-  .praticasInfantis, .simplesAtividades{
+  .praticasInfantis, .simplesAtividades {
     text-align: left;
     margin: 1.25rem auto;
     max-width: 90%;
@@ -665,12 +656,12 @@ body {
     transition: opacity 0.4s;
   }
 
-  .finalizacao{
+  .finalizacao  {
     margin: 1.25rem auto;
     max-width: 90%;
   }
 
-  .jogos{
+  .jogos  {
     text-align: center;
     width: 90%;
     margin: 0 auto;
@@ -1046,6 +1037,7 @@ body {
     text-decoration: none;
     color: #004D40;
     font-weight: bold;
+    transition: 0.1s;
   }
 
   #botaopagina a{
@@ -1059,8 +1051,9 @@ body {
     justify-content: center;
   }
 
-  .menu a:active {
-    font-weight: normal;
+  .menu a:hover, .menu a:active {
+    font-weight: bolder;
+    font-size: 1.40rem;
   }
 
   #menu-toggle:checked + .menu-icon + .menu {
