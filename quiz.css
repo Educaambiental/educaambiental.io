@@ -186,7 +186,28 @@ display: none;
   font-size: 1.5rem;
 }
 
+/*media query para tablets*/
+@media (max-width: 960px) {
+  .imgsAtivSust {
+    width: 60%;
+    height: 5% auto;
+    display: block;
+    border: 2px solid #004D40;
+    border-radius: 5px;
+    margin-inline: 19.7% auto;
+  }
 
+  .menu li {
+    font-size: 2rem;
+  }
+
+  .menu a:hover, .menu a:active {
+    font-weight: bolder;
+    font-size: 2.15rem;
+  }
+}
+
+/*media query para mobile*/
 @media (max-width: 768px) {
   body {
     font-family: 'Roboto', sans-serif;

@@ -555,7 +555,8 @@ body {
     width: 20%;
   }
 } 
-/*media query para imgsAtivSust em telas de tablets*/
+
+/*media query para tablets*/
 @media (max-width: 960px) {
   .imgsAtivSust {
     width: 60%;
@@ -564,6 +565,15 @@ body {
     border: 2px solid #004D40;
     border-radius: 5px;
     margin-inline: 19.7% auto;
+  }
+
+  .menu li {
+    font-size: 2rem;
+  }
+
+  .menu a:hover, .menu a:active {
+    font-weight: bolder;
+    font-size: 2.15rem;
   }
 }
 
